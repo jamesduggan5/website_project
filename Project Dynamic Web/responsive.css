@@ -1,0 +1,174 @@
+/* Simplify width and height calculations - includes padding and borders in width and height. */
+html {
+    box-sizing: border-box;
+}
+*, *:before,  *:after {
+    box-sizing: inherit;
+}
+ul {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#navlinks {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    list-style-type: none;
+    font-size: x-large;
+    color: #C3BFBF;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+
+	
+}
+#navlinks a {
+    display: block;
+    padding-bottom: 40px;
+    float: left;
+    width: 20%;
+    text-decoration: none;
+    padding-top: 40px;
+    color: #000000;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+
+}
+.thispage {
+    color: #68DB20;
+    
+}
+a:active {
+    color: #04FF50;
+    background-color: #CFFF00;    
+}
+a:link {
+    color: #C8C8C8;
+}
+a:hover {
+    font-size: xx-large;
+    color: #252525;
+   
+    background-color: #CFFF00;    
+}
+a:visited {
+    color: #000000;
+    background-color: #CFFF00;
+}
+
+h1 {
+    color: #CFFF00;
+    margin: 20px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #00B7FF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#img2 {
+    margin-left: 50px;
+    padding-left: 20px;
+}
+wrapper {
+    color: #EF272A;
+    margin: 20px;
+    width: 0px;
+    background-color: #000000;    
+}
+
+main {
+    float: left;
+    display: block;
+    padding: 20px;
+    margin: 30px;
+    line-height: 25px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+#faq {
+    text-align: center;
+    margin-left: 200px;
+}
+#kettext {
+    float: right;
+    clear: right;
+    margin-left: 500px;
+    text-align: left;
+}
+#jennygreene {
+    margin-top: 50px;
+    padding-top: 20px;
+    text-align: left;
+    float: left;
+    clear: left;
+    margin-right: 500px;
+}
+aside {
+    line-height: 25px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    display: block;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    
+}
+#fishtext {
+    text-align: left;
+    margin-left: 500px;
+}
+#denissulta {
+    margin-top: 190px;
+    padding-top: 110px;
+    text-align: left;
+    margin-right: 500px;
+}
+
+footer {
+    padding: 30px;
+    margin: 20px;
+    clear: right;
+    line-height: 25px;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+
+#sven {
+    
+}
+
+#imgket {
+    margin: 20px;
+    float: left;    
+}
+#imgjen {
+    margin: 20px;
+    float: right;
+}
+#imgfish {
+    
+    float: left;
+}
+#imgden {
+    margin: 60px;
+    float: right;
+    display: inline;
+}
+bottom {
+    margin-top: 550px;
+    text-align: center;
+    background-color: #00B7FF;
+    display: block;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    padding: 30px;
+    color: #CFFF00;
+}
+.grayscale {
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+.grayscale:hover {
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+	
+}
+label,input,textarea{
+	display: block
+}
